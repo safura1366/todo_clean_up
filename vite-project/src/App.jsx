@@ -11,6 +11,7 @@ function App() {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState("completed");
+  ///localstorge
   useEffect(() => {
     const localTodos = localStorage.getItem("todos");
     if (localTodos) {

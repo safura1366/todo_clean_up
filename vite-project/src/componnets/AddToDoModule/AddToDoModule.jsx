@@ -30,7 +30,7 @@ function AddToDoModule({onClose,addTodoHandler}) {
             className="input-element title-input"
             onChange={(event)=>setTitle(event.target.value)}
           />
-           {error ? <p style={{color:'red',fontSize:"12pxssssssssssssssssssss"}}>نام کاربری 5 کراکتر است</p>: null}
+           {error ? <p style={{color:'red',fontSize:"12px"}}>نام کاربری 5 کراکتر است</p>: null}
           <textarea
             value={description}
             className="input-element description-input"
